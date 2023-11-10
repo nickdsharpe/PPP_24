@@ -79,8 +79,8 @@ def PPP(data):
     
     # True Shooting Percentage
     tot_trueshooting_per = str(round(((0.5 * total_points) / ((FGA2 + FGA3) + (0.44 * (FTM2 + FTM3))))* 100, 2))
-    shooting_trueshooting_per = str(round(((0.5 * shooting_points) / (shootFGA) + (0.44 * (shoot2FTM + shoot3FTM)))* 100, 2))
-    passing_trueshooting_per = str(round(((0.5 * passing_points) / (passFGA) + (0.44 * (pass2FTM + pass3FTM)))* 100, 2))
+    shooting_trueshooting_per = str(round(((0.5 * shooting_points) / ((shootFGA) + (0.44 * (shoot2FTM + shoot3FTM))))* 100, 2))
+    passing_trueshooting_per = str(round(((0.5 * passing_points) / ((passFGA) + (0.44 * (pass2FTM + pass3FTM))))* 100, 2))
     
     # Shooting Possessions
     shootPoss_totOVR = int((shoot2FGA + (0.44*(shoot2FTA + shoot3FTA)) + shoot2TO + shoot3FGA + shoot3TO))
