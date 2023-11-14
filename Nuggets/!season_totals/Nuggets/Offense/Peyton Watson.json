@@ -8,7 +8,7 @@
                 "DHO SC": 0,
                 "ISO": 1,
                 "TRAN": 7,
-                "ACO": 4,
+                "ACO": 6,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 6,
@@ -21,7 +21,7 @@
                 "DHO SC": 0,
                 "ISO": 1,
                 "TRAN": 5,
-                "ACO": 3,
+                "ACO": 4,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 5,
@@ -73,7 +73,7 @@
                 "DHO SC": 0,
                 "ISO": 3,
                 "TRAN": 26,
-                "ACO": 17,
+                "ACO": 23,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 18,
@@ -590,6 +590,22 @@
                 ],
                 1,
                 "Cutting"
+            ],
+            [
+                [
+                    -9,
+                    117
+                ],
+                1,
+                "Attacking Closeouts"
+            ],
+            [
+                [
+                    15,
+                    37
+                ],
+                0,
+                "Attacking Closeouts"
             ]
         ],
         "created_locations": [
@@ -1693,7 +1709,7 @@
                 "DHO SC": 0,
                 "ISO": 1,
                 "TRAN": 7,
-                "ACO": 3,
+                "ACO": 4,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 6,
@@ -1758,7 +1774,7 @@
                 "DHO SC": 0,
                 "ISO": 3,
                 "TRAN": 26,
-                "ACO": 12,
+                "ACO": 14,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 18,
@@ -2177,6 +2193,14 @@
                 ],
                 1,
                 "Cutting"
+            ],
+            [
+                [
+                    15,
+                    37
+                ],
+                0,
+                "Attacking Closeouts"
             ]
         ],
         "created_locations": [
@@ -3211,7 +3235,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
-                "ACO": 0,
+                "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 0,
@@ -3224,7 +3248,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
-                "ACO": 0,
+                "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 0,
@@ -3276,7 +3300,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
-                "ACO": 0,
+                "ACO": 4,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 0,
@@ -3517,7 +3541,16 @@
                 "OREB": 0
             }
         },
-        "shooting_locations": [],
+        "shooting_locations": [
+            [
+                [
+                    -9,
+                    117
+                ],
+                1,
+                "Attacking Closeouts"
+            ]
+        ],
         "created_locations": [
             [
                 [

@@ -87,7 +87,7 @@
                 "ISO": 0,
                 "TRAN": 1,
                 "ACO": 0,
-                "C/S": 11,
+                "C/S": 12,
                 "OBS": 2,
                 "CUT": 0,
                 "OREB": 0
@@ -152,7 +152,7 @@
                 "ISO": 0,
                 "TRAN": 4,
                 "ACO": 0,
-                "C/S": 38,
+                "C/S": 42,
                 "OBS": 7,
                 "CUT": 0,
                 "OREB": 0
@@ -503,6 +503,14 @@
                 ],
                 20,
                 "Isolation"
+            ],
+            [
+                [
+                    167,
+                    213
+                ],
+                0,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": [
@@ -2431,7 +2439,7 @@
                 "ISO": 0,
                 "TRAN": 1,
                 "ACO": 0,
-                "C/S": 2,
+                "C/S": 3,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -2496,7 +2504,7 @@
                 "ISO": 0,
                 "TRAN": 4,
                 "ACO": 0,
-                "C/S": 7,
+                "C/S": 11,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -2681,6 +2689,14 @@
                 ],
                 1,
                 "Transition"
+            ],
+            [
+                [
+                    167,
+                    213
+                ],
+                0,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": []
