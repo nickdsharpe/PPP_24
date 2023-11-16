@@ -1,14 +1,11 @@
 import pandas as pd
-import time
 import numpy as np
 
 def PPP(data):
-    
-    timeStart = time.time()
-    
+
     #Grab the column headers
     headers = data.columns
-    
+
     # Assign shooting data to new variables
     shoot2FGA = data.loc['shoot2FGA'].sum().sum()
     shoot2FGM = data.loc['shoot2FGM'].sum().sum()
