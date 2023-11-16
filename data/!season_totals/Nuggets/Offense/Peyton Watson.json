@@ -4,9 +4,9 @@
             "shoot2FGA": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 1,
+                "ISO": 2,
                 "TRAN": 7,
                 "ACO": 6,
                 "C/S": 0,
@@ -69,9 +69,9 @@
             "shootSQ2": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 3,
+                "ISO": 5,
                 "TRAN": 26,
                 "ACO": 23,
                 "C/S": 0,
@@ -606,6 +606,22 @@
                 ],
                 0,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    23,
+                    21
+                ],
+                0,
+                "Isolation"
+            ],
+            [
+                [
+                    -1,
+                    21
+                ],
+                0,
+                "DHO Ball Handler"
             ]
         ],
         "created_locations": [
@@ -1705,9 +1721,9 @@
             "shoot2FGA": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 1,
+                "ISO": 2,
                 "TRAN": 7,
                 "ACO": 4,
                 "C/S": 0,
@@ -1770,9 +1786,9 @@
             "shootSQ2": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 3,
+                "ISO": 5,
                 "TRAN": 26,
                 "ACO": 14,
                 "C/S": 0,
@@ -2201,6 +2217,22 @@
                 ],
                 0,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    23,
+                    21
+                ],
+                0,
+                "Isolation"
+            ],
+            [
+                [
+                    -1,
+                    21
+                ],
+                0,
+                "DHO Ball Handler"
             ]
         ],
         "created_locations": [

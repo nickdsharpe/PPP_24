@@ -11,7 +11,7 @@
                 "ACO": 11,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 5,
+                "CUT": 6,
                 "OREB": 3
             },
             "shoot2FGM": {
@@ -55,7 +55,7 @@
             },
             "shoot2TO": {
                 "PNR BH": 0,
-                "PNR SC": 0,
+                "PNR SC": 1,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 1,
@@ -76,7 +76,7 @@
                 "ACO": 24,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 22,
+                "CUT": 24,
                 "OREB": 6
             },
             "shoot3FGA": {
@@ -84,10 +84,10 @@
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 1,
                 "TRAN": 0,
                 "ACO": 2,
-                "C/S": 10,
+                "C/S": 11,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -149,10 +149,10 @@
                 "PNR SC": 5,
                 "DHO BH": 3,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 3,
                 "TRAN": 0,
                 "ACO": 7,
-                "C/S": 40,
+                "C/S": 45,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -803,6 +803,38 @@
                 ],
                 0,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    -73,
+                    245
+                ],
+                0,
+                "Isolation"
+            ],
+            [
+                [
+                    -17,
+                    101
+                ],
+                20,
+                "PNR Screener"
+            ],
+            [
+                [
+                    15,
+                    13
+                ],
+                0,
+                "Cutting"
+            ],
+            [
+                [
+                    239,
+                    13
+                ],
+                0,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": [
@@ -1007,7 +1039,7 @@
             },
             "shoot2TO": {
                 "PNR BH": 0,
-                "PNR SC": 0,
+                "PNR SC": 1,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
@@ -1288,6 +1320,14 @@
                 ],
                 11,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    -17,
+                    101
+                ],
+                20,
+                "PNR Screener"
             ]
         ],
         "created_locations": [
@@ -1312,7 +1352,7 @@
                 "ACO": 9,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 5,
+                "CUT": 6,
                 "OREB": 3
             },
             "shoot2FGM": {
@@ -1377,7 +1417,7 @@
                 "ACO": 17,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 22,
+                "CUT": 24,
                 "OREB": 6
             },
             "shoot3FGA": {
@@ -1922,6 +1962,14 @@
                 ],
                 0,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    15,
+                    13
+                ],
+                0,
+                "Cutting"
             ]
         ],
         "created_locations": [
@@ -2047,7 +2095,7 @@
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 1,
@@ -2112,7 +2160,7 @@
                 "PNR SC": 5,
                 "DHO BH": 3,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 3,
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 5,
@@ -2306,6 +2354,14 @@
                 ],
                 0,
                 "PNR Ball Handler"
+            ],
+            [
+                [
+                    -73,
+                    245
+                ],
+                0,
+                "Isolation"
             ]
         ],
         "created_locations": [
@@ -3163,7 +3219,7 @@
                 "ISO": 0,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 3,
+                "C/S": 4,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -3228,7 +3284,7 @@
                 "ISO": 0,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 11,
+                "C/S": 16,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -3411,6 +3467,14 @@
                     53
                 ],
                 1
+            ],
+            [
+                [
+                    239,
+                    13
+                ],
+                0,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": []
