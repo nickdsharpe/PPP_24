@@ -3,7 +3,7 @@
         "data": {
             "poa2FGA": {
                 "PNR BH": 4,
-                "PNR SC": 0,
+                "PNR SC": 1,
                 "DHO BH": 2,
                 "DHO SC": 0,
                 "ISO": 9,
@@ -94,7 +94,7 @@
             },
             "poaSQ2": {
                 "PNR BH": 14,
-                "PNR SC": 0,
+                "PNR SC": 3,
                 "DHO BH": 10,
                 "DHO SC": 0,
                 "ISO": 19,
@@ -805,6 +805,14 @@
                 ],
                 1,
                 "TRAN"
+            ],
+            [
+                [
+                    7,
+                    69
+                ],
+                0,
+                "PNR SC"
             ]
         ]
     },
@@ -1255,7 +1263,7 @@
         "data": {
             "poa2FGA": {
                 "PNR BH": 1,
-                "PNR SC": 0,
+                "PNR SC": 1,
                 "DHO BH": 2,
                 "DHO SC": 0,
                 "ISO": 8,
@@ -1346,7 +1354,7 @@
             },
             "poaSQ2": {
                 "PNR BH": 3,
-                "PNR SC": 0,
+                "PNR SC": 3,
                 "DHO BH": 10,
                 "DHO SC": 0,
                 "ISO": 17,
@@ -1846,6 +1854,14 @@
                 ],
                 1,
                 "TRAN"
+            ],
+            [
+                [
+                    7,
+                    69
+                ],
+                0,
+                "PNR SC"
             ]
         ]
     },
