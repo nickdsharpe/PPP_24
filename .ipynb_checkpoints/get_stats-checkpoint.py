@@ -26,7 +26,33 @@ def get_stats(team, player, game, off_def, save=False):
             PPP_raw_data = file['ovr_data']['data']
             PPP_raw_data = pd.DataFrame(PPP_raw_data).transpose()
             PPP_data = PPP(PPP_raw_data)
-
+            
+            # Get most frequent play type
+            most_freq_df = PPP_data.copy()
+            most_freq_df['% of Poss.'] = most_freq_df['% of Poss.'].astype('float')
+            most_freq = most_freq_df.sort_values('% of Poss.', ascending=False).drop('TOTAL').reset_index()
+            
+            most_freq_play_type = most_freq['index'][0]
+            most_freq_play_type_per = most_freq['% of Poss.'][0]
+            most_freq_play_type_PPP = most_freq['Total PPP'][0]
+            most_freq_play_type_creation_per = most_freq['Total Creation %'][0]
+            most_freq_play_type_SQ = most_freq['Total SQ'][0]
+            most_freq_play_type_TS = most_freq['Total TS%'][0]
+            
+            # Get Most Efficient Play Type
+            best = PPP_data.copy()
+            best = best[best['Total PPP'] != 'N/A']
+            best['% of Poss.'] = best['% of Poss.'].astype('float')
+            best = best[best['% of Poss.'] > 5.0]
+            best = best.sort_values('Total PPP', ascending=False).drop('TOTAL').reset_index()
+            
+            best_play_type = best['index'][0]
+            best_play_type_per = best['% of Poss.'][0]
+            best_play_type_PPP = best['Total PPP'][0]
+            best_play_type_SQ = best['Total SQ'][0]
+            best_play_type_creation = best['Total Creation %'][0]
+            best_play_type_TS = best['Total TS%'][0]
+            
             # Load shot data from selected zone
             shots = file['ovr_data']['shooting_locations']
 
@@ -36,6 +62,7 @@ def get_stats(team, player, game, off_def, save=False):
             shoot_TS = PPP_data['Shooting TS%']['TOTAL']
             total_3pt_fg_per = PPP_data['Shooting 3pt FG%']['TOTAL']
             total_3pt_SQ = PPP_data['Shooting 3pt SQ']['TOTAL']
+            total_creation = PPP_data['Total Creation %']['TOTAL']
 
             FTR = PPP_data['Total FTR']['TOTAL']
             TO_per = PPP_data['Total TO']['TOTAL']
@@ -137,7 +164,7 @@ def get_stats(team, player, game, off_def, save=False):
     if game == '!season_totals':
         game = 'Season Total'
         
-    nugg_off_ax.annotate(f'Total PPP:  {total_PPP} \n Shooting TS%:  {shoot_TS} on {total_SQ} SQ \n 3pt FG%:  {total_3pt_fg_per} on {total_3pt_SQ} SQ \n \n Total FTR:  {FTR} \n Total TO%:  {TO_per} \n \n Rim PPP:  {total_rim_PPP} \n Rim TS%:  {rim_TS} on {rim_SQ} SQ', xy=(250, 250), xytext=(430, 220), fontsize=20, ha='center')
+    nugg_off_ax.annotate(f'Total PPP:  {total_PPP} \n Shooting TS%:  {shoot_TS} on {total_SQ} SQ \n 3pt FG%:  {total_3pt_fg_per} on {total_3pt_SQ} SQ \n Total Creation %:  {total_creation} \n \n Total FTR:  {FTR} \n Total TO%:  {TO_per} \n \n Rim PPP:  {total_rim_PPP} \n Rim TS%:  {rim_TS} on {rim_SQ} SQ \n \n Most Frequent:  {most_freq_play_type} ({most_freq_play_type_per}%)\n PPP:  {most_freq_play_type_PPP} on {most_freq_play_type_SQ} SQ\n Creation %:  {most_freq_play_type_creation_per}\n Total TS%:  {most_freq_play_type_TS} \n \n Best Play Type:  {best_play_type} ({best_play_type_per}%)\n Total PPP:  {best_play_type_PPP} on {best_play_type_SQ} SQ \n Creation %:  {best_play_type_creation} \n Total TS%:  {best_play_type_TS}', xy=(250,250), xytext=(470, 250), fontsize=20, ha='center', va='center')
     
     nugg_off_ax.set_title(f'{player} Shot Chart | {game}', y=1.03, fontsize=25)
     
