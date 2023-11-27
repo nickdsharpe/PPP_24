@@ -117,6 +117,7 @@ def get_stats(team, player, game, off_def, save=False):
         x = shot[0][0]
         y = shot[0][1] + 60
         res = shot[1]
+        
         if res == 1:
             nugg_off_ax.plot(x,y, marker='o', color='#4aff50', markersize=13, alpha=0.7)
         if res == 0:
@@ -145,6 +146,9 @@ def get_stats(team, player, game, off_def, save=False):
     
     # Save figure if save is True
     if save:
+        if game == 'Season Total':
+            game = '!season_totals'
+            
         nugg_off_fig.savefig(f'data/{game}/{team}/{off_def}/{player}.png', bbox_inches='tight', dpi=nugg_off_fig.dpi)
 
-    return PPP, rim_PPP, nugg_off_fig
+    return PPP_data, rim_PPP, nugg_off_fig
