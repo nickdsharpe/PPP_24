@@ -11,7 +11,7 @@
                 "ACO": 6,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 7,
+                "CUT": 8,
                 "OREB": 2
             },
             "shoot2FGM": {
@@ -24,7 +24,7 @@
                 "ACO": 4,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 6,
+                "CUT": 7,
                 "OREB": 0
             },
             "shoot2FTA": {
@@ -38,7 +38,7 @@
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 4,
-                "OREB": 0
+                "OREB": 2
             },
             "shoot2FTM": {
                 "PNR BH": 2,
@@ -76,7 +76,7 @@
                 "ACO": 23,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 23,
+                "CUT": 28,
                 "OREB": 2
             },
             "shoot3FGA": {
@@ -702,6 +702,22 @@
                 ],
                 11,
                 "PNR Ball Handler"
+            ],
+            [
+                [
+                    31,
+                    77
+                ],
+                1,
+                "Cutting"
+            ],
+            [
+                [
+                    39,
+                    13
+                ],
+                11,
+                "Offensive Rebounds"
             ]
         ],
         "created_locations": [
@@ -1835,7 +1851,7 @@
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 4,
-                "OREB": 0
+                "OREB": 2
             },
             "shoot2FTM": {
                 "PNR BH": 2,
@@ -2377,6 +2393,14 @@
                 ],
                 11,
                 "PNR Ball Handler"
+            ],
+            [
+                [
+                    39,
+                    13
+                ],
+                11,
+                "Offensive Rebounds"
             ]
         ],
         "created_locations": [
@@ -3422,7 +3446,7 @@
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 0,
+                "CUT": 1,
                 "OREB": 0
             },
             "shoot2FGM": {
@@ -3435,7 +3459,7 @@
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 0,
+                "CUT": 1,
                 "OREB": 0
             },
             "shoot2FTA": {
@@ -3487,7 +3511,7 @@
                 "ACO": 4,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 0,
+                "CUT": 5,
                 "OREB": 0
             },
             "shoot3FGA": {
@@ -3741,6 +3765,14 @@
                 ],
                 20,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    31,
+                    77
+                ],
+                1,
+                "Cutting"
             ]
         ],
         "created_locations": [
