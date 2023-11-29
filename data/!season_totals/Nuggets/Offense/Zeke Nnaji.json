@@ -6,7 +6,7 @@
                 "PNR SC": 10,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 2,
+                "ISO": 3,
                 "TRAN": 1,
                 "ACO": 2,
                 "C/S": 1,
@@ -58,7 +58,7 @@
                 "PNR SC": 3,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 1,
+                "ISO": 2,
                 "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
@@ -71,7 +71,7 @@
                 "PNR SC": 23,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 1,
+                "ISO": 6,
                 "TRAN": 3,
                 "ACO": 2,
                 "C/S": 1,
@@ -686,6 +686,22 @@
                 ],
                 20,
                 "PNR Screener"
+            ],
+            [
+                [
+                    23,
+                    -3
+                ],
+                0,
+                "Isolation"
+            ],
+            [
+                [
+                    -57,
+                    13
+                ],
+                20,
+                "Isolation"
             ]
         ],
         "created_locations": [
@@ -1061,7 +1077,7 @@
                 "PNR SC": 10,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 2,
+                "ISO": 3,
                 "TRAN": 1,
                 "ACO": 2,
                 "C/S": 0,
@@ -1113,7 +1129,7 @@
                 "PNR SC": 2,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 1,
                 "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
@@ -1126,7 +1142,7 @@
                 "PNR SC": 23,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 1,
+                "ISO": 6,
                 "TRAN": 3,
                 "ACO": 2,
                 "C/S": 0,
@@ -1644,6 +1660,22 @@
                 ],
                 20,
                 "PNR Screener"
+            ],
+            [
+                [
+                    23,
+                    -3
+                ],
+                0,
+                "Isolation"
+            ],
+            [
+                [
+                    -57,
+                    13
+                ],
+                20,
+                "Isolation"
             ]
         ],
         "created_locations": []

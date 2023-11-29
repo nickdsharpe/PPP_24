@@ -139,7 +139,7 @@
                 "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 0,
+                "C/S": 1,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -447,6 +447,14 @@
                 ],
                 0,
                 "Isolation"
+            ],
+            [
+                [
+                    239,
+                    85
+                ],
+                20,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": [
@@ -996,7 +1004,7 @@
                 "ISO": 0,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 0,
+                "C/S": 1,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -1178,6 +1186,14 @@
                     29
                 ],
                 0
+            ],
+            [
+                [
+                    239,
+                    85
+                ],
+                20,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": []

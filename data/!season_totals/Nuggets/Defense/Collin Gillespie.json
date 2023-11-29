@@ -2,12 +2,12 @@
     "ovr_data": {
         "data": {
             "poa2FGA": {
-                "PNR BH": 3,
+                "PNR BH": 4,
                 "PNR SC": 0,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 5,
-                "TRAN": 0,
+                "ISO": 6,
+                "TRAN": 1,
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 1,
@@ -15,12 +15,12 @@
                 "OREB": 0
             },
             "poa2FGM": {
-                "PNR BH": 1,
+                "PNR BH": 2,
                 "PNR SC": 0,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 3,
-                "TRAN": 0,
+                "ISO": 4,
+                "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 1,
@@ -93,12 +93,12 @@
                 "OREB": 0
             },
             "poaSQ2": {
-                "PNR BH": 11,
+                "PNR BH": 15,
                 "PNR SC": 0,
                 "DHO BH": 4,
                 "DHO SC": 0,
-                "ISO": 15,
-                "TRAN": 0,
+                "ISO": 20,
+                "TRAN": 5,
                 "ACO": 8,
                 "C/S": 0,
                 "OBS": 5,
@@ -630,6 +630,30 @@
                 ],
                 0,
                 "PNR BH"
+            ],
+            [
+                [
+                    -185,
+                    93
+                ],
+                1,
+                "PNR BH"
+            ],
+            [
+                [
+                    -41,
+                    13
+                ],
+                1,
+                "ISO"
+            ],
+            [
+                [
+                    15,
+                    29
+                ],
+                1,
+                "TRAN"
             ]
         ]
     },
@@ -1069,8 +1093,8 @@
                 "PNR SC": 0,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 2,
-                "TRAN": 0,
+                "ISO": 3,
+                "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 1,
@@ -1082,8 +1106,8 @@
                 "PNR SC": 0,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 1,
-                "TRAN": 0,
+                "ISO": 2,
+                "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 1,
@@ -1160,8 +1184,8 @@
                 "PNR SC": 0,
                 "DHO BH": 4,
                 "DHO SC": 0,
-                "ISO": 8,
-                "TRAN": 0,
+                "ISO": 13,
+                "TRAN": 5,
                 "ACO": 5,
                 "C/S": 0,
                 "OBS": 5,
@@ -1558,6 +1582,22 @@
                 ],
                 0,
                 "PNR BH"
+            ],
+            [
+                [
+                    -41,
+                    13
+                ],
+                1,
+                "ISO"
+            ],
+            [
+                [
+                    15,
+                    29
+                ],
+                1,
+                "TRAN"
             ]
         ]
     },
@@ -3324,7 +3364,7 @@
     "LMZ1": {
         "data": {
             "poa2FGA": {
-                "PNR BH": 1,
+                "PNR BH": 2,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -3337,7 +3377,7 @@
                 "OREB": 0
             },
             "poa2FGM": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -3415,7 +3455,7 @@
                 "OREB": 0
             },
             "poaSQ2": {
-                "PNR BH": 3,
+                "PNR BH": 7,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -3756,6 +3796,14 @@
                 ],
                 0,
                 "ISO"
+            ],
+            [
+                [
+                    -185,
+                    93
+                ],
+                1,
+                "PNR BH"
             ]
         ]
     },

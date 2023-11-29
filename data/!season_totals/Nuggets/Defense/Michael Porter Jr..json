@@ -6,12 +6,12 @@
                 "PNR SC": 1,
                 "DHO BH": 2,
                 "DHO SC": 0,
-                "ISO": 18,
-                "TRAN": 5,
+                "ISO": 20,
+                "TRAN": 6,
                 "ACO": 11,
                 "C/S": 1,
                 "OBS": 0,
-                "CUT": 5,
+                "CUT": 6,
                 "OREB": 3
             },
             "poa2FGM": {
@@ -19,12 +19,12 @@
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 5,
-                "TRAN": 4,
+                "ISO": 7,
+                "TRAN": 5,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 2,
+                "CUT": 3,
                 "OREB": 3
             },
             "poa2FTA": {
@@ -97,36 +97,36 @@
                 "PNR SC": 2,
                 "DHO BH": 5,
                 "DHO SC": 0,
-                "ISO": 38,
-                "TRAN": 12,
+                "ISO": 42,
+                "TRAN": 15,
                 "ACO": 29,
                 "C/S": 3,
                 "OBS": 0,
-                "CUT": 11,
+                "CUT": 16,
                 "OREB": 7
             },
             "poa3FGA": {
-                "PNR BH": 1,
+                "PNR BH": 3,
                 "PNR SC": 1,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 6,
                 "TRAN": 1,
                 "ACO": 1,
-                "C/S": 15,
+                "C/S": 17,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
             },
             "poa3FGM": {
-                "PNR BH": 1,
+                "PNR BH": 2,
                 "PNR SC": 1,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 2,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 9,
+                "C/S": 10,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -197,34 +197,34 @@
                 "OREB": 0
             },
             "poaSQ3": {
-                "PNR BH": 3,
+                "PNR BH": 7,
                 "PNR SC": 4,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 13,
                 "TRAN": 3,
                 "ACO": 4,
-                "C/S": 52,
+                "C/S": 60,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
             },
             "help2FGA": {
                 "PNR BH": 4,
-                "PNR SC": 5,
+                "PNR SC": 6,
                 "DHO BH": 1,
                 "DHO SC": 2,
                 "ISO": 2,
-                "TRAN": 1,
-                "ACO": 5,
+                "TRAN": 2,
+                "ACO": 6,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 1,
+                "CUT": 3,
                 "OREB": 0
             },
             "help2FGM": {
                 "PNR BH": 3,
-                "PNR SC": 4,
+                "PNR SC": 5,
                 "DHO BH": 0,
                 "DHO SC": 2,
                 "ISO": 0,
@@ -232,7 +232,7 @@
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 1,
+                "CUT": 2,
                 "OREB": 0
             },
             "help2FTA": {
@@ -293,24 +293,24 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 2,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 0,
+                "CUT": 1,
                 "OREB": 0
             },
             "helpSQ2": {
                 "PNR BH": 9,
-                "PNR SC": 12,
+                "PNR SC": 16,
                 "DHO BH": 2,
                 "DHO SC": 5,
                 "ISO": 2,
-                "TRAN": 2,
-                "ACO": 6,
+                "TRAN": 3,
+                "ACO": 9,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 2,
+                "CUT": 8,
                 "OREB": 0
             },
             "help3FGA": {
@@ -1240,6 +1240,110 @@
                 ],
                 0,
                 "ISO"
+            ],
+            [
+                [
+                    -65,
+                    245
+                ],
+                1,
+                "C/S"
+            ],
+            [
+                [
+                    23,
+                    253
+                ],
+                1,
+                "PNR BH"
+            ],
+            [
+                [
+                    -33,
+                    5
+                ],
+                0,
+                "TRAN"
+            ],
+            [
+                [
+                    -1,
+                    13
+                ],
+                1,
+                "PNR SC"
+            ],
+            [
+                [
+                    167,
+                    13
+                ],
+                1,
+                "ISO"
+            ],
+            [
+                [
+                    -17,
+                    5
+                ],
+                1,
+                "TRAN"
+            ],
+            [
+                [
+                    231,
+                    45
+                ],
+                0,
+                "C/S"
+            ],
+            [
+                [
+                    -9,
+                    13
+                ],
+                1,
+                "CUT"
+            ],
+            [
+                [
+                    -9,
+                    -3
+                ],
+                1,
+                "CUT"
+            ],
+            [
+                [
+                    -25,
+                    -11
+                ],
+                1,
+                "ISO"
+            ],
+            [
+                [
+                    -17,
+                    5
+                ],
+                0,
+                "CUT"
+            ],
+            [
+                [
+                    -33,
+                    45
+                ],
+                0,
+                "ACO"
+            ],
+            [
+                [
+                    -145,
+                    229
+                ],
+                0,
+                "PNR BH"
             ]
         ]
     },
@@ -1250,12 +1354,12 @@
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 11,
-                "TRAN": 4,
+                "ISO": 12,
+                "TRAN": 5,
                 "ACO": 5,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 3,
+                "CUT": 4,
                 "OREB": 2
             },
             "poa2FGM": {
@@ -1263,12 +1367,12 @@
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 3,
-                "TRAN": 4,
+                "ISO": 4,
+                "TRAN": 5,
                 "ACO": 0,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 1,
+                "CUT": 2,
                 "OREB": 2
             },
             "poa2FTA": {
@@ -1341,12 +1445,12 @@
                 "PNR SC": 2,
                 "DHO BH": 3,
                 "DHO SC": 0,
-                "ISO": 20,
-                "TRAN": 11,
+                "ISO": 22,
+                "TRAN": 14,
                 "ACO": 8,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 5,
+                "CUT": 10,
                 "OREB": 4
             },
             "poa3FGA": {
@@ -1455,20 +1559,20 @@
             },
             "help2FGA": {
                 "PNR BH": 3,
-                "PNR SC": 5,
+                "PNR SC": 6,
                 "DHO BH": 1,
                 "DHO SC": 2,
                 "ISO": 1,
-                "TRAN": 1,
-                "ACO": 5,
+                "TRAN": 2,
+                "ACO": 6,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 1,
+                "CUT": 3,
                 "OREB": 0
             },
             "help2FGM": {
                 "PNR BH": 3,
-                "PNR SC": 4,
+                "PNR SC": 5,
                 "DHO BH": 0,
                 "DHO SC": 2,
                 "ISO": 0,
@@ -1476,7 +1580,7 @@
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 1,
+                "CUT": 2,
                 "OREB": 0
             },
             "help2FTA": {
@@ -1537,24 +1641,24 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 1,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 0,
+                "CUT": 1,
                 "OREB": 0
             },
             "helpSQ2": {
                 "PNR BH": 7,
-                "PNR SC": 12,
+                "PNR SC": 16,
                 "DHO BH": 2,
                 "DHO SC": 5,
                 "ISO": 1,
-                "TRAN": 2,
-                "ACO": 6,
+                "TRAN": 3,
+                "ACO": 9,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 2,
+                "CUT": 8,
                 "OREB": 0
             },
             "help3FGA": {
@@ -2011,6 +2115,70 @@
                 ],
                 0,
                 "ISO"
+            ],
+            [
+                [
+                    -33,
+                    5
+                ],
+                0,
+                "TRAN"
+            ],
+            [
+                [
+                    -1,
+                    13
+                ],
+                1,
+                "PNR SC"
+            ],
+            [
+                [
+                    -17,
+                    5
+                ],
+                1,
+                "TRAN"
+            ],
+            [
+                [
+                    -9,
+                    13
+                ],
+                1,
+                "CUT"
+            ],
+            [
+                [
+                    -9,
+                    -3
+                ],
+                1,
+                "CUT"
+            ],
+            [
+                [
+                    -25,
+                    -11
+                ],
+                1,
+                "ISO"
+            ],
+            [
+                [
+                    -17,
+                    5
+                ],
+                0,
+                "CUT"
+            ],
+            [
+                [
+                    -33,
+                    45
+                ],
+                0,
+                "ACO"
             ]
         ]
     },
@@ -2574,7 +2742,7 @@
                 "OREB": 0
             },
             "poa3FGA": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 1,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -2665,7 +2833,7 @@
                 "OREB": 0
             },
             "poaSQ3": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 4,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -2930,6 +3098,14 @@
                 ],
                 0,
                 "C/S"
+            ],
+            [
+                [
+                    -145,
+                    229
+                ],
+                0,
+                "PNR BH"
             ]
         ]
     },
@@ -3047,7 +3223,7 @@
                 "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 4,
+                "C/S": 5,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -3138,7 +3314,7 @@
                 "ISO": 3,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 13,
+                "C/S": 16,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -3388,6 +3564,14 @@
                     37
                 ],
                 1,
+                "C/S"
+            ],
+            [
+                [
+                    231,
+                    45
+                ],
+                0,
                 "C/S"
             ]
         ]
@@ -5901,27 +6085,27 @@
                 "OREB": 0
             },
             "poa3FGA": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
                 "ACO": 1,
-                "C/S": 1,
+                "C/S": 2,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
             },
             "poa3FGM": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 1,
+                "C/S": 2,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -5992,14 +6176,14 @@
                 "OREB": 0
             },
             "poaSQ3": {
-                "PNR BH": 0,
+                "PNR BH": 3,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
                 "ACO": 4,
-                "C/S": 3,
+                "C/S": 8,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 0
@@ -6244,6 +6428,22 @@
                 ],
                 1,
                 "C/S"
+            ],
+            [
+                [
+                    -65,
+                    245
+                ],
+                1,
+                "C/S"
+            ],
+            [
+                [
+                    23,
+                    253
+                ],
+                1,
+                "PNR BH"
             ]
         ]
     },
@@ -6699,7 +6899,7 @@
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 0,
@@ -6712,7 +6912,7 @@
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 0,
@@ -6790,7 +6990,7 @@
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 2,
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 0,
@@ -7118,6 +7318,14 @@
                     109
                 ],
                 20
+            ],
+            [
+                [
+                    167,
+                    13
+                ],
+                1,
+                "ISO"
             ]
         ]
     },
