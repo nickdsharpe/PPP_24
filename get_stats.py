@@ -26,33 +26,43 @@ def get_stats(team, player, game, off_def, save=False):
             PPP_raw_data = file['ovr_data']['data']
             PPP_raw_data = pd.DataFrame(PPP_raw_data).transpose()
             PPP_data = PPP(PPP_raw_data)
-            
+
             # Get most frequent play type
             most_freq_df = PPP_data.copy()
             most_freq_df['% of Poss.'] = most_freq_df['% of Poss.'].astype('float')
             most_freq = most_freq_df.sort_values('% of Poss.', ascending=False).drop('TOTAL').reset_index()
-            
+
             most_freq_play_type = most_freq['index'][0]
             most_freq_play_type_per = most_freq['% of Poss.'][0]
             most_freq_play_type_PPP = most_freq['Total PPP'][0]
             most_freq_play_type_creation_per = most_freq['Total Creation %'][0]
             most_freq_play_type_SQ = most_freq['Total SQ'][0]
             most_freq_play_type_TS = most_freq['Total TS%'][0]
-            
+
             # Get Most Efficient Play Type
             best = PPP_data.copy()
             best = best[best['Total PPP'] != 'N/A']
+            best['Total PPP'] = best['Total PPP'].astype('float')
             best['% of Poss.'] = best['% of Poss.'].astype('float')
+            best = best.drop('TOTAL')
             best = best[best['% of Poss.'] > 5.0]
-            best = best.sort_values('Total PPP', ascending=False).drop('TOTAL').reset_index()
             
-            best_play_type = best['index'][0]
-            best_play_type_per = best['% of Poss.'][0]
-            best_play_type_PPP = best['Total PPP'][0]
-            best_play_type_SQ = best['Total SQ'][0]
-            best_play_type_creation = best['Total Creation %'][0]
-            best_play_type_TS = best['Total TS%'][0]
-            
+            if best['Total PPP'].sum() != 0:
+                best = best.sort_values('Total PPP', ascending=False).reset_index()
+                best_play_type = best['index'][0]
+                best_play_type_per = best['% of Poss.'][0]
+                best_play_type_PPP = best['Total PPP'][0]
+                best_play_type_SQ = best['Total SQ'][0]
+                best_play_type_creation = best['Total Creation %'][0]
+                best_play_type_TS = best['Total TS%'][0]
+            else:
+                best_play_type = 'N/A'
+                best_play_type_per = 'N/A'
+                best_play_type_PPP = 'N/A'
+                best_play_type_SQ = 'N/A'
+                best_play_type_creation = 'N/A'
+                best_play_type_TS = 'N/A'
+
             # Load shot data from selected zone
             shots = file['ovr_data']['shooting_locations']
 
@@ -112,30 +122,40 @@ def get_stats(team, player, game, off_def, save=False):
             
             FTR = PPP_data['Total FTR']['TOTAL']
             TO_per = PPP_data['Total TO']['TOTAL']
-            
+
             # Get most frequent play type
             most_freq_df = PPP_data.copy()
             most_freq_df['% of Poss.'] = most_freq_df['% of Poss.'].astype('float')
             most_freq = most_freq_df.sort_values('% of Poss.', ascending=False).drop('TOTAL').reset_index()
-            
+    
             most_freq_play_type = most_freq['index'][0]
             most_freq_play_type_per = most_freq['% of Poss.'][0]
             most_freq_play_type_PPP = most_freq['Total PPP'][0]
             most_freq_play_type_SQ = most_freq['Total SQ'][0]
             most_freq_play_type_TS = most_freq['Total TS%'][0]
-            
+        
             # Get Most Efficient Play Type
             best = PPP_data.copy()
             best = best[best['Total PPP'] != 'N/A']
             best['% of Poss.'] = best['% of Poss.'].astype('float')
+            best = best.drop('TOTAL')
             best = best[best['% of Poss.'] > 5.0]
-            best = best.sort_values('Total PPP', ascending=True).drop('TOTAL').reset_index()
             
-            best_play_type = best['index'][0]
-            best_play_type_per = best['% of Poss.'][0]
-            best_play_type_PPP = best['Total PPP'][0]
-            best_play_type_SQ = best['Total SQ'][0]
-            best_play_type_TS = best['Total TS%'][0]
+            if best['Total PPP'].sum() != 0:
+                best = best.sort_values('Total PPP', ascending=True).reset_index()
+                best_play_type = best['index'][0]
+                best_play_type_per = best['% of Poss.'][0]
+                best_play_type_PPP = best['Total PPP'][0]
+                best_play_type_SQ = best['Total SQ'][0]
+                best_play_type_creation = best['Total Creation %'][0]
+                best_play_type_TS = best['Total TS%'][0]
+            else:
+                best_play_type = 'N/A'
+                best_play_type_per = 'N/A'
+                best_play_type_PPP = 'N/A'
+                best_play_type_SQ = 'N/A'
+                best_play_type_creation = 'N/A'
+                best_play_type_TS = 'N/A'
             
             try:
                 rim_PPP = file['Rim']['data']
