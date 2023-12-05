@@ -6,22 +6,22 @@ def create_court(ax, color):
     
     ''' BASIC NBA COURT '''
     # Short corner 3PT lines
-    ax.plot([-220, -220], [0, 140], linewidth=3, color=color)
-    ax.plot([220, 220], [0, 140], linewidth=3, color=color)
+    ax.plot([-220, -220], [0, 140], linewidth=2, color=color)
+    ax.plot([220, 220], [0, 140], linewidth=2, color=color)
     
     # 3PT Arc
-    ax.add_artist(mpl.patches.Arc((0, 140), 439, 315, theta1=0, theta2=180, facecolor='none', edgecolor=color, lw=3))
+    ax.add_artist(mpl.patches.Arc((0, 140), 439, 315, theta1=0, theta2=180, facecolor='none', edgecolor=color, lw=2))
     
     # Lane and Key
-    ax.plot([-80, -80], [0, 190], linewidth=3, color=color)
-    ax.plot([80, 80], [0, 190], linewidth=3, color=color)
-    ax.plot([-60, -60], [0, 190], linewidth=3, color=color)
-    ax.plot([60, 60], [0, 190], linewidth=3, color=color)
-    ax.plot([-80, 80], [190, 190], linewidth=3, color=color)
-    ax.add_artist(mpl.patches.Circle((0, 190), 60, facecolor='none', edgecolor=color, lw=3))
+    ax.plot([-80, -80], [0, 190], linewidth=2, color=color)
+    ax.plot([80, 80], [0, 190], linewidth=2, color=color)
+    ax.plot([-60, -60], [0, 190], linewidth=2, color=color)
+    ax.plot([60, 60], [0, 190], linewidth=2, color=color)
+    ax.plot([-80, 80], [190, 190], linewidth=2, color=color)
+    ax.add_artist(mpl.patches.Circle((0, 190), 60, facecolor='none', edgecolor=color, lw=2))
     
     # Rim
-    ax.add_artist(mpl.patches.Circle((0, 60), 15, facecolor='none', edgecolor=color, lw=3))
+    ax.add_artist(mpl.patches.Circle((0, 60), 15, facecolor='none', edgecolor=color, lw=2))
 
     # Backboard
     ax.plot([-30, 30], [40, 40], linewidth=2, color=color)
@@ -37,8 +37,8 @@ def create_court(ax, color):
     ''' ZONES '''
     # RIM
     ax.add_artist(mpl.patches.Arc((0, 60), 159, 140, theta1=0, theta2=180, facecolor='none', edgecolor='#5c5c5c', lw=2, linestyle='dashed'))
-    ax.plot([-80, -80], [0, 60], lw=1, linestyle='dashed', color='#5c5c5c')
-    ax.plot([80, 80], [0, 60], lw=1, linestyle='dashed', color='#5c5c5c')
+    ax.plot([-80, -80], [0, 60], lw=2, linestyle='dashed', color='#5c5c5c')
+    ax.plot([80, 80], [0, 60], lw=2, linestyle='dashed', color='#5c5c5c')
     
     # SHORT MID-RANGE
     ax.add_artist(mpl.patches.Arc((0, 80), 290, 270, theta1=0, theta2=180, facecolor='none', edgecolor='#5c5c5c', lw=2, linestyle='dashed'))
