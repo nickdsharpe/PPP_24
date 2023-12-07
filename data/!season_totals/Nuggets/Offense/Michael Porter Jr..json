@@ -4,33 +4,33 @@
             "shoot2FGA": {
                 "PNR BH": 4,
                 "PNR SC": 0,
-                "DHO BH": 3,
+                "DHO BH": 6,
                 "DHO SC": 0,
                 "ISO": 12,
-                "TRAN": 16,
-                "ACO": 15,
-                "C/S": 0,
-                "OBS": 16,
-                "CUT": 21,
-                "OREB": 15
+                "TRAN": 18,
+                "ACO": 17,
+                "C/S": 1,
+                "OBS": 18,
+                "CUT": 22,
+                "OREB": 16
             },
             "shoot2FGM": {
                 "PNR BH": 2,
                 "PNR SC": 0,
-                "DHO BH": 2,
+                "DHO BH": 4,
                 "DHO SC": 0,
                 "ISO": 6,
                 "TRAN": 9,
-                "ACO": 9,
-                "C/S": 0,
-                "OBS": 8,
-                "CUT": 11,
+                "ACO": 11,
+                "C/S": 1,
+                "OBS": 10,
+                "CUT": 12,
                 "OREB": 14
             },
             "shoot2FTA": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 3,
                 "TRAN": 4,
@@ -43,7 +43,7 @@
             "shoot2FTM": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 3,
                 "TRAN": 4,
@@ -63,31 +63,31 @@
                 "ACO": 3,
                 "C/S": 1,
                 "OBS": 1,
-                "CUT": 3,
+                "CUT": 4,
                 "OREB": 1
             },
             "shootSQ2": {
                 "PNR BH": 17,
                 "PNR SC": 0,
-                "DHO BH": 10,
+                "DHO BH": 17,
                 "DHO SC": 0,
                 "ISO": 30,
-                "TRAN": 57,
-                "ACO": 34,
-                "C/S": 0,
-                "OBS": 54,
-                "CUT": 52,
-                "OREB": 55
+                "TRAN": 63,
+                "ACO": 40,
+                "C/S": 4,
+                "OBS": 61,
+                "CUT": 57,
+                "OREB": 56
             },
             "shoot3FGA": {
-                "PNR BH": 3,
+                "PNR BH": 4,
                 "PNR SC": 1,
-                "DHO BH": 8,
+                "DHO BH": 9,
                 "DHO SC": 1,
                 "ISO": 12,
-                "TRAN": 14,
+                "TRAN": 15,
                 "ACO": 12,
-                "C/S": 74,
+                "C/S": 75,
                 "OBS": 15,
                 "CUT": 0,
                 "OREB": 1
@@ -132,7 +132,7 @@
                 "OREB": 0
             },
             "shoot3TO": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -145,20 +145,20 @@
                 "OREB": 0
             },
             "shootSQ3": {
-                "PNR BH": 9,
+                "PNR BH": 11,
                 "PNR SC": 2,
-                "DHO BH": 22,
+                "DHO BH": 24,
                 "DHO SC": 4,
                 "ISO": 31,
-                "TRAN": 59,
+                "TRAN": 64,
                 "ACO": 36,
-                "C/S": 263,
+                "C/S": 267,
                 "OBS": 52,
                 "CUT": 0,
                 "OREB": 5
             },
             "pass2FGA": {
-                "PNR BH": 1,
+                "PNR BH": 3,
                 "PNR SC": 1,
                 "DHO BH": 2,
                 "DHO SC": 0,
@@ -223,7 +223,7 @@
                 "OREB": 0
             },
             "passSQ2": {
-                "PNR BH": 4,
+                "PNR BH": 10,
                 "PNR SC": 5,
                 "DHO BH": 6,
                 "DHO SC": 0,
@@ -240,8 +240,8 @@
                 "PNR SC": 0,
                 "DHO BH": 3,
                 "DHO SC": 0,
-                "ISO": 0,
-                "TRAN": 2,
+                "ISO": 1,
+                "TRAN": 4,
                 "ACO": 4,
                 "C/S": 0,
                 "OBS": 1,
@@ -253,8 +253,8 @@
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 0,
-                "TRAN": 0,
+                "ISO": 1,
+                "TRAN": 2,
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 1,
@@ -305,8 +305,8 @@
                 "PNR SC": 0,
                 "DHO BH": 10,
                 "DHO SC": 0,
-                "ISO": 0,
-                "TRAN": 10,
+                "ISO": 5,
+                "TRAN": 18,
                 "ACO": 13,
                 "C/S": 0,
                 "OBS": 4,
@@ -2430,6 +2430,150 @@
                 ],
                 1,
                 "Catch & Shoot"
+            ],
+            [
+                [
+                    7,
+                    5
+                ],
+                1,
+                "Off-Ball Screens"
+            ],
+            [
+                [
+                    -121,
+                    213
+                ],
+                0,
+                "PNR Ball Handler"
+            ],
+            [
+                [
+                    -33,
+                    69
+                ],
+                1,
+                "DHO Ball Handler"
+            ],
+            [
+                [
+                    159,
+                    77
+                ],
+                1,
+                "Off-Ball Screens"
+            ],
+            [
+                [
+                    7,
+                    5
+                ],
+                1,
+                "Cutting"
+            ],
+            [
+                [
+                    -161,
+                    5
+                ],
+                1,
+                "Catch & Shoot"
+            ],
+            [
+                [
+                    -1,
+                    21
+                ],
+                0,
+                "Offensive Rebounds"
+            ],
+            [
+                [
+                    -17,
+                    -3
+                ],
+                0,
+                "Transition"
+            ],
+            [
+                [
+                    143,
+                    93
+                ],
+                0,
+                "Transition"
+            ],
+            [
+                [
+                    -121,
+                    221
+                ],
+                0,
+                "DHO Ball Handler"
+            ],
+            [
+                [
+                    111,
+                    221
+                ],
+                0,
+                "Transition"
+            ],
+            [
+                [
+                    15,
+                    77
+                ],
+                1,
+                "Attacking Closeouts"
+            ],
+            [
+                [
+                    7,
+                    245
+                ],
+                20,
+                "PNR Ball Handler"
+            ],
+            [
+                [
+                    -185,
+                    93
+                ],
+                0,
+                "DHO Ball Handler"
+            ],
+            [
+                [
+                    -25,
+                    141
+                ],
+                30,
+                "DHO Ball Handler"
+            ],
+            [
+                [
+                    151,
+                    5
+                ],
+                20,
+                "Cutting"
+            ],
+            [
+                [
+                    -25,
+                    173
+                ],
+                1,
+                "Attacking Closeouts"
+            ],
+            [
+                [
+                    239,
+                    21
+                ],
+                0,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": [
@@ -2675,7 +2819,7 @@
                 "OREB": 0
             },
             "shoot3TO": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -2783,7 +2927,7 @@
                 "PNR SC": 0,
                 "DHO BH": 1,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 1,
                 "TRAN": 0,
                 "ACO": 1,
                 "C/S": 0,
@@ -2796,7 +2940,7 @@
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 0,
@@ -2848,7 +2992,7 @@
                 "PNR SC": 0,
                 "DHO BH": 4,
                 "DHO SC": 0,
-                "ISO": 0,
+                "ISO": 5,
                 "TRAN": 0,
                 "ACO": 1,
                 "C/S": 0,
@@ -3215,6 +3359,14 @@
                 ],
                 0,
                 "DHO Ball Handler"
+            ],
+            [
+                [
+                    7,
+                    245
+                ],
+                20,
+                "PNR Ball Handler"
             ]
         ],
         "created_locations": [
@@ -3308,9 +3460,9 @@
                 "OREB": 0
             },
             "shoot3FGA": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 3,
                 "TRAN": 7,
@@ -3373,9 +3525,9 @@
                 "OREB": 0
             },
             "shootSQ3": {
-                "PNR BH": 0,
+                "PNR BH": 2,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 2,
                 "DHO SC": 0,
                 "ISO": 9,
                 "TRAN": 31,
@@ -3469,7 +3621,7 @@
                 "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 0,
                 "C/S": 0,
                 "OBS": 1,
@@ -3482,7 +3634,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 0,
                 "C/S": 0,
                 "OBS": 1,
@@ -3534,7 +3686,7 @@
                 "DHO BH": 3,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 5,
                 "ACO": 0,
                 "C/S": 0,
                 "OBS": 4,
@@ -3760,6 +3912,22 @@
                 ],
                 0,
                 "Isolation"
+            ],
+            [
+                [
+                    -121,
+                    213
+                ],
+                0,
+                "PNR Ball Handler"
+            ],
+            [
+                [
+                    -121,
+                    221
+                ],
+                0,
+                "DHO Ball Handler"
             ]
         ],
         "created_locations": []
@@ -3850,7 +4018,7 @@
                 "DHO BH": 2,
                 "DHO SC": 1,
                 "ISO": 2,
-                "TRAN": 2,
+                "TRAN": 3,
                 "ACO": 5,
                 "C/S": 28,
                 "OBS": 1,
@@ -3915,7 +4083,7 @@
                 "DHO BH": 3,
                 "DHO SC": 4,
                 "ISO": 5,
-                "TRAN": 8,
+                "TRAN": 13,
                 "ACO": 15,
                 "C/S": 92,
                 "OBS": 5,
@@ -4423,6 +4591,14 @@
                 ],
                 1,
                 "Catch & Shoot"
+            ],
+            [
+                [
+                    111,
+                    221
+                ],
+                0,
+                "Transition"
             ]
         ],
         "created_locations": []
@@ -4432,27 +4608,27 @@
             "shoot2FGA": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 1,
+                "DHO BH": 2,
                 "DHO SC": 0,
                 "ISO": 4,
-                "TRAN": 13,
-                "ACO": 9,
+                "TRAN": 14,
+                "ACO": 10,
                 "C/S": 0,
-                "OBS": 6,
-                "CUT": 16,
-                "OREB": 13
+                "OBS": 7,
+                "CUT": 17,
+                "OREB": 14
             },
             "shoot2FGM": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 1,
+                "DHO BH": 2,
                 "DHO SC": 0,
                 "ISO": 2,
                 "TRAN": 8,
-                "ACO": 6,
+                "ACO": 7,
                 "C/S": 0,
-                "OBS": 5,
-                "CUT": 9,
+                "OBS": 6,
+                "CUT": 10,
                 "OREB": 12
             },
             "shoot2FTA": {
@@ -4497,15 +4673,15 @@
             "shootSQ2": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 4,
+                "DHO BH": 8,
                 "DHO SC": 0,
                 "ISO": 8,
-                "TRAN": 44,
-                "ACO": 19,
+                "TRAN": 46,
+                "ACO": 22,
                 "C/S": 0,
-                "OBS": 19,
-                "CUT": 40,
-                "OREB": 46
+                "OBS": 22,
+                "CUT": 45,
+                "OREB": 47
             },
             "shoot3FGA": {
                 "PNR BH": 0,
@@ -4586,7 +4762,7 @@
                 "OREB": 0
             },
             "pass2FGA": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
@@ -4651,7 +4827,7 @@
                 "OREB": 0
             },
             "passSQ2": {
-                "PNR BH": 0,
+                "PNR BH": 2,
                 "PNR SC": 5,
                 "DHO BH": 2,
                 "DHO SC": 0,
@@ -5316,6 +5492,54 @@
                 ],
                 0,
                 "Cutting"
+            ],
+            [
+                [
+                    7,
+                    5
+                ],
+                1,
+                "Off-Ball Screens"
+            ],
+            [
+                [
+                    -33,
+                    69
+                ],
+                1,
+                "DHO Ball Handler"
+            ],
+            [
+                [
+                    7,
+                    5
+                ],
+                1,
+                "Cutting"
+            ],
+            [
+                [
+                    -1,
+                    21
+                ],
+                0,
+                "Offensive Rebounds"
+            ],
+            [
+                [
+                    -17,
+                    -3
+                ],
+                0,
+                "Transition"
+            ],
+            [
+                [
+                    15,
+                    77
+                ],
+                1,
+                "Attacking Closeouts"
             ]
         ],
         "created_locations": [
@@ -5392,7 +5616,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 2,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
@@ -5457,7 +5681,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 7,
-                "TRAN": 0,
+                "TRAN": 4,
                 "ACO": 3,
                 "C/S": 0,
                 "OBS": 0,
@@ -5769,6 +5993,14 @@
                 ],
                 0,
                 "PNR Ball Handler"
+            ],
+            [
+                [
+                    143,
+                    93
+                ],
+                0,
+                "Transition"
             ]
         ],
         "created_locations": [
@@ -6023,7 +6255,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 0,
@@ -6036,7 +6268,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
@@ -6088,7 +6320,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 3,
                 "ACO": 8,
                 "C/S": 0,
                 "OBS": 0,
@@ -6280,7 +6512,7 @@
                 "ISO": 1,
                 "TRAN": 2,
                 "ACO": 1,
-                "C/S": 11,
+                "C/S": 12,
                 "OBS": 1,
                 "CUT": 0,
                 "OREB": 1
@@ -6345,7 +6577,7 @@
                 "ISO": 1,
                 "TRAN": 8,
                 "ACO": 3,
-                "C/S": 38,
+                "C/S": 42,
                 "OBS": 2,
                 "CUT": 0,
                 "OREB": 5
@@ -6636,6 +6868,14 @@
                 ],
                 0,
                 "Transition"
+            ],
+            [
+                [
+                    239,
+                    21
+                ],
+                0,
+                "Catch & Shoot"
             ]
         ],
         "created_locations": [
@@ -6669,7 +6909,7 @@
             "shoot2FGA": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 1,
+                "DHO BH": 2,
                 "DHO SC": 0,
                 "ISO": 4,
                 "TRAN": 2,
@@ -6682,7 +6922,7 @@
             "shoot2FGM": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 2,
                 "TRAN": 1,
@@ -6695,7 +6935,7 @@
             "shoot2FTA": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
@@ -6708,7 +6948,7 @@
             "shoot2FTM": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
@@ -7128,6 +7368,14 @@
                 ],
                 1,
                 "Cutting"
+            ],
+            [
+                [
+                    -25,
+                    141
+                ],
+                30,
+                "DHO Ball Handler"
             ]
         ],
         "created_locations": [
@@ -7151,7 +7399,7 @@
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 0,
-                "OBS": 1,
+                "OBS": 2,
                 "CUT": 0,
                 "OREB": 1
             },
@@ -7164,7 +7412,7 @@
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 0,
-                "OBS": 0,
+                "OBS": 1,
                 "CUT": 0,
                 "OREB": 1
             },
@@ -7216,7 +7464,7 @@
                 "TRAN": 0,
                 "ACO": 0,
                 "C/S": 0,
-                "OBS": 2,
+                "OBS": 6,
                 "CUT": 0,
                 "OREB": 5
             },
@@ -7470,6 +7718,14 @@
                 ],
                 0,
                 "Off-Ball Screens"
+            ],
+            [
+                [
+                    159,
+                    77
+                ],
+                1,
+                "Off-Ball Screens"
             ]
         ],
         "created_locations": []
@@ -7479,12 +7735,12 @@
             "shoot2FGA": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 0,
+                "C/S": 1,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 1
@@ -7497,7 +7753,7 @@
                 "ISO": 1,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 0,
+                "C/S": 1,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 1
@@ -7544,12 +7800,12 @@
             "shootSQ2": {
                 "PNR BH": 0,
                 "PNR SC": 0,
-                "DHO BH": 0,
+                "DHO BH": 3,
                 "DHO SC": 0,
                 "ISO": 2,
                 "TRAN": 0,
                 "ACO": 0,
-                "C/S": 0,
+                "C/S": 4,
                 "OBS": 0,
                 "CUT": 0,
                 "OREB": 4
@@ -7804,6 +8060,22 @@
                 ],
                 1,
                 "Isolation"
+            ],
+            [
+                [
+                    -161,
+                    5
+                ],
+                1,
+                "Catch & Shoot"
+            ],
+            [
+                [
+                    -185,
+                    93
+                ],
+                0,
+                "DHO Ball Handler"
             ]
         ],
         "created_locations": []
@@ -7817,7 +8089,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 1,
-                "ACO": 0,
+                "ACO": 1,
                 "C/S": 0,
                 "OBS": 6,
                 "CUT": 0,
@@ -7830,7 +8102,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 0,
-                "ACO": 0,
+                "ACO": 1,
                 "C/S": 0,
                 "OBS": 1,
                 "CUT": 0,
@@ -7882,7 +8154,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 5,
-                "ACO": 0,
+                "ACO": 3,
                 "C/S": 0,
                 "OBS": 23,
                 "CUT": 0,
@@ -8206,6 +8478,14 @@
                 ],
                 0,
                 "Transition"
+            ],
+            [
+                [
+                    -25,
+                    173
+                ],
+                1,
+                "Attacking Closeouts"
             ]
         ],
         "created_locations": []
@@ -8608,7 +8888,7 @@
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
-                "CUT": 2,
+                "CUT": 3,
                 "OREB": 0
             },
             "shootSQ2": {
@@ -8703,7 +8983,7 @@
                 "OREB": 0
             },
             "pass2FGA": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -8768,7 +9048,7 @@
                 "OREB": 0
             },
             "passSQ2": {
-                "PNR BH": 0,
+                "PNR BH": 4,
                 "PNR SC": 0,
                 "DHO BH": 0,
                 "DHO SC": 0,
@@ -8894,6 +9174,14 @@
                 [
                     87,
                     37
+                ],
+                20,
+                "Cutting"
+            ],
+            [
+                [
+                    151,
+                    5
                 ],
                 20,
                 "Cutting"
