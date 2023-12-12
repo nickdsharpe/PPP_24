@@ -9,8 +9,10 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import json
 import plotly.graph_objects as go
+import plotly.figure_factory as ff
+import plotly.express as px
 
-def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
+def get_heat_map(team, player, game, off_def, play_type='TOTAL', save=False):
     
     # Load the offensive stats if Offense is selected
     if off_def == 'Offense':
@@ -200,34 +202,29 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
     
     
     #### Generating shot chart and summary ####
-    
-    # General plot parameters
+    #-----------------------------------------#
+     # General plot parameters
     mpl.rcParams['font.size'] = 20
     mpl.rcParams['axes.linewidth'] = 2
     
     # Draw basketball court
     nugg_off_fig = plt.figure(figsize=(7, 6.5))
+    plt.gca().set_aspect('equal', adjustable='box')
     nugg_off_ax = nugg_off_fig.add_axes([0, 0, 1, 1])
-    nugg_off_ax = create_court(nugg_off_ax, '#c4c4c4')
-    nugg_off_ax.set_facecolor('#4a4a4a')
-
-    for shot in shots:
-        x = shot[0][0]
-        y = shot[0][1] + 60
-        res = shot[1]
-        
-        if res == 1:
-            nugg_off_ax.plot(x,y, marker='o', color='#4aff50', markersize=13, alpha=0.7)
-        if res == 0:
-            nugg_off_ax.plot(x,y, marker='o', color='#f54767', markersize=13, alpha=0.7)
-        if res == 11: # Free Throws
-            nugg_off_ax.plot(x,y, marker='^', color='#40ccff', markersize=12, alpha=0.7)
-            
-        if res == 20: # Turnovers
-            nugg_off_ax.plot(x,y, marker='D', color='#ffed2b', markersize=10, alpha=0.5)
-            
-        if res == 30: # And-1
-            nugg_off_ax.plot(x,y, marker='^', color='#2393de', markersize=11, alpha=0.7)
+    nugg_off_ax = create_court(nugg_off_ax, 'black')
+    nugg_off_ax.set_facecolor('white')
+    
+    extent = [-250, 250, 0, 470]
+    
+    x = [shot[0][0] for shot in shots]
+    y = [shot[0][1] + 60 for shot in shots]
+    res = [shot[1] for shot in shots]
+    
+    
+    
+    nugg_off_ax.annotate(summary, xy=(250,250), xytext=(470, 250), fontsize=20, ha='center', va='center')
+    
+    nugg_off_ax.set_title(f'{player} Shot Chart | {game}', y=1.03, fontsize=25)
     
     if player == 'Team':
         player = team
@@ -235,21 +232,7 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
     if game == '!season_totals':
         game = 'Season Total'
         
-    if game == 'series':
-        game = 'Series'
-        
-    nugg_off_ax.annotate(summary, xy=(250,250), xytext=(470, 250), fontsize=20, ha='center', va='center')
-    
-    nugg_off_ax.set_title(f'{player} Shot Chart | {game}', y=1.03, fontsize=25)
-    
+    plt.hexbin(x, y, gridsize=15, cmap='gist_heat_r', alpha=0.7, mincnt=0, extent=extent)
     plt.show()
-    #plt.subplots_adjust(top=0.88)
-    
-    # Save figure if save is True
-    if save:
-        if game == 'Season Total':
-            game = '!season_totals'
-            
-        nugg_off_fig.savefig(f'data/{game}/{team}/{off_def}/{player}.png', bbox_inches='tight', dpi=nugg_off_fig.dpi)
 
     return PPP_data, rim_PPP, nugg_off_fig
