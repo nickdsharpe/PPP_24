@@ -8,7 +8,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 2,
-                "ACO": 3,
+                "ACO": 4,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 2,
@@ -73,7 +73,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 10,
-                "ACO": 8,
+                "ACO": 11,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 10,
@@ -163,7 +163,7 @@
                 "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
@@ -228,7 +228,7 @@
                 "DHO BH": 3,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 3,
                 "ACO": 3,
                 "C/S": 0,
                 "OBS": 0,
@@ -536,6 +536,14 @@
                     141
                 ],
                 1,
+                "Attacking Closeouts"
+            ],
+            [
+                [
+                    31,
+                    29
+                ],
+                0,
                 "Attacking Closeouts"
             ]
         ],
@@ -1266,7 +1274,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 2,
-                "ACO": 0,
+                "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 2,
@@ -1331,7 +1339,7 @@
                 "DHO SC": 0,
                 "ISO": 0,
                 "TRAN": 10,
-                "ACO": 0,
+                "ACO": 3,
                 "C/S": 0,
                 "OBS": 0,
                 "CUT": 10,
@@ -1421,7 +1429,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 1,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
@@ -1486,7 +1494,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 0,
+                "TRAN": 3,
                 "ACO": 3,
                 "C/S": 0,
                 "OBS": 0,
@@ -1604,6 +1612,14 @@
                 ],
                 1,
                 "Cutting"
+            ],
+            [
+                [
+                    31,
+                    29
+                ],
+                0,
+                "Attacking Closeouts"
             ]
         ]
     },
