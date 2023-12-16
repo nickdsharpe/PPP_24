@@ -3,7 +3,7 @@
         "data": {
             "shoot2FGA": {
                 "PNR BH": 0,
-                "PNR SC": 8,
+                "PNR SC": 9,
                 "DHO BH": 0,
                 "DHO SC": 2,
                 "ISO": 3,
@@ -16,7 +16,7 @@
             },
             "shoot2FGM": {
                 "PNR BH": 0,
-                "PNR SC": 6,
+                "PNR SC": 7,
                 "DHO BH": 0,
                 "DHO SC": 2,
                 "ISO": 1,
@@ -68,7 +68,7 @@
             },
             "shootSQ2": {
                 "PNR BH": 0,
-                "PNR SC": 24,
+                "PNR SC": 29,
                 "DHO BH": 0,
                 "DHO SC": 8,
                 "ISO": 2,
@@ -581,6 +581,14 @@
                 [
                     7,
                     5
+                ],
+                1,
+                "PNR Screener"
+            ],
+            [
+                [
+                    15,
+                    13
                 ],
                 1,
                 "PNR Screener"
@@ -1252,7 +1260,7 @@
         "data": {
             "shoot2FGA": {
                 "PNR BH": 0,
-                "PNR SC": 8,
+                "PNR SC": 9,
                 "DHO BH": 0,
                 "DHO SC": 2,
                 "ISO": 3,
@@ -1265,7 +1273,7 @@
             },
             "shoot2FGM": {
                 "PNR BH": 0,
-                "PNR SC": 6,
+                "PNR SC": 7,
                 "DHO BH": 0,
                 "DHO SC": 2,
                 "ISO": 1,
@@ -1317,7 +1325,7 @@
             },
             "shootSQ2": {
                 "PNR BH": 0,
-                "PNR SC": 24,
+                "PNR SC": 29,
                 "DHO BH": 0,
                 "DHO SC": 8,
                 "ISO": 2,
@@ -1807,6 +1815,14 @@
                 [
                     7,
                     5
+                ],
+                1,
+                "PNR Screener"
+            ],
+            [
+                [
+                    15,
+                    13
                 ],
                 1,
                 "PNR Screener"

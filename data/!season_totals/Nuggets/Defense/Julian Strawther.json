@@ -106,7 +106,7 @@
                 "OREB": 4
             },
             "poa3FGA": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
@@ -197,7 +197,7 @@
                 "OREB": 0
             },
             "poaSQ3": {
-                "PNR BH": 0,
+                "PNR BH": 4,
                 "PNR SC": 4,
                 "DHO BH": 4,
                 "DHO SC": 0,
@@ -833,6 +833,14 @@
                 ],
                 0,
                 "C/S"
+            ],
+            [
+                [
+                    55,
+                    245
+                ],
+                0,
+                "PNR BH"
             ]
         ]
     },
@@ -4216,7 +4224,7 @@
                 "OREB": 0
             },
             "poa3FGA": {
-                "PNR BH": 0,
+                "PNR BH": 1,
                 "PNR SC": 1,
                 "DHO BH": 1,
                 "DHO SC": 0,
@@ -4307,7 +4315,7 @@
                 "OREB": 0
             },
             "poaSQ3": {
-                "PNR BH": 0,
+                "PNR BH": 4,
                 "PNR SC": 4,
                 "DHO BH": 4,
                 "DHO SC": 0,
@@ -4568,6 +4576,14 @@
                 ],
                 1,
                 "OBS"
+            ],
+            [
+                [
+                    55,
+                    245
+                ],
+                0,
+                "PNR BH"
             ]
         ]
     },

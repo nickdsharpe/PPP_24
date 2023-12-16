@@ -7,7 +7,7 @@
                 "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 2,
+                "TRAN": 3,
                 "ACO": 4,
                 "C/S": 0,
                 "OBS": 0,
@@ -20,7 +20,7 @@
                 "DHO BH": 1,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 2,
+                "TRAN": 3,
                 "ACO": 2,
                 "C/S": 0,
                 "OBS": 0,
@@ -72,7 +72,7 @@
                 "DHO BH": 5,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 10,
+                "TRAN": 15,
                 "ACO": 11,
                 "C/S": 0,
                 "OBS": 0,
@@ -545,6 +545,14 @@
                 ],
                 0,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    -9,
+                    5
+                ],
+                1,
+                "Transition"
             ]
         ],
         "created_locations": []
@@ -1273,7 +1281,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 2,
+                "TRAN": 3,
                 "ACO": 1,
                 "C/S": 0,
                 "OBS": 0,
@@ -1286,7 +1294,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 2,
+                "TRAN": 3,
                 "ACO": 0,
                 "C/S": 0,
                 "OBS": 0,
@@ -1338,7 +1346,7 @@
                 "DHO BH": 0,
                 "DHO SC": 0,
                 "ISO": 0,
-                "TRAN": 10,
+                "TRAN": 15,
                 "ACO": 3,
                 "C/S": 0,
                 "OBS": 0,
@@ -1620,6 +1628,14 @@
                 ],
                 0,
                 "Attacking Closeouts"
+            ],
+            [
+                [
+                    -9,
+                    5
+                ],
+                1,
+                "Transition"
             ]
         ]
     },
