@@ -106,7 +106,7 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
                 rim_PPP = PPP(rim_PPP)
 
                 total_rim_PPP = rim_PPP['Shooting PPP'][play_type]
-                rim_TS = rim_PPP['Shooting TS%'][play_type]
+                rim_TG = rim_PPP['Shooting TS%'][play_type]
                 rim_SQ = rim_PPP['Shooting SQ'][play_type]
             except:
                 rim_PPP = 'N/A'
