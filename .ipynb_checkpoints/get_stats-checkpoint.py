@@ -20,12 +20,12 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
             # Retreive the files and assign them a variable
             with open (path, 'r') as o:
                 file = json.load(o)
-
+     
             # Generate Overall PPP
             PPP_raw_data = file['ovr_data']['data']
             PPP_raw_data = pd.DataFrame(PPP_raw_data).transpose()
             PPP_data = PPP(PPP_raw_data)
-            
+        
             if play_type == 'TOTAL':
                 # Get most frequent play type
                 most_freq_df = PPP_data.copy()
@@ -46,7 +46,7 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
                 best['% of Poss.'] = best['% of Poss.'].astype('float')
                 best = best.drop('TOTAL')
                 best = best[best['% of Poss.'] > 5.0]
-
+              
                 if best['Total PPP'].sum() != 0:
                     best = best.sort_values('Total PPP', ascending=False).reset_index()
                     best_play_type = best['index'][0]
@@ -76,7 +76,7 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
                 most_freq_play_type_creation_per = 'N/A'
                 most_freq_play_type_SQ = 'N/A'
                 most_freq_play_type_TS = 'N/A'
-
+       
             # Load shot data from selected play_type
             if play_type != 'TOTAL':
                 shots = []
@@ -88,7 +88,7 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
                         pass
             else:
                 shots = file['ovr_data']['shooting_locations']
-
+       
             # Generate summary stats
             total_PPP = PPP_data['Total PPP'][play_type]
             total_SQ = PPP_data['Total SQ'][play_type]
@@ -99,21 +99,23 @@ def get_stats(team, player, game, off_def, play_type='TOTAL', save=False):
 
             FTR = PPP_data['Total FTR'][play_type]
             TO_per = PPP_data['Total TO'][play_type]
-
+      
             try:
                 rim_PPP = file['Rim']['data']
                 rim_PPP = pd.DataFrame(rim_PPP).transpose()
                 rim_PPP = PPP(rim_PPP)
 
                 total_rim_PPP = rim_PPP['Shooting PPP'][play_type]
-                rim_TG = rim_PPP['Shooting TS%'][play_type]
+                rim_TS = rim_PPP['Shooting TS%'][play_type]
                 rim_SQ = rim_PPP['Shooting SQ'][play_type]
             except:
                 rim_PPP = 'N/A'
                 total_rim_PPP = 'N/A'
                 rim_TS = 'N/A'
                 rim_SQ = 'N/A'
+          
             summary = f'Total PPP:  {total_PPP} \n Shooting TS%:  {shoot_TS} on {total_SQ} SQ \n 3pt FG%:  {total_3pt_fg_per} on {total_3pt_SQ} SQ \n Total Creation %: {total_creation} \n \n Total FTR:  {FTR} \n Total TO%:  {TO_per} \n \n Rim PPP:  {total_rim_PPP} \n Rim TS%:  {rim_TS} on {rim_SQ} SQ \n \n Most Frequent:  {most_freq_play_type} ({most_freq_play_type_per}%)\n PPP:  {most_freq_play_type_PPP} on {most_freq_play_type_SQ} SQ\n Creation %:  {most_freq_play_type_creation_per}\n Total TS%:  {most_freq_play_type_TS} \n \n Best Play Type:  {best_play_type} ({best_play_type_per}%)\n Total PPP:  {best_play_type_PPP} on {best_play_type_SQ} SQ \n Creation %:  {best_play_type_creation} \n Total TS%:  {best_play_type_TS}'
+
         except:
             print(f'No data for {player}')
             
